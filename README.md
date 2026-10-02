@@ -1,5 +1,3 @@
-https://github.com/tqmgxd/loghunter/blob/main/Screenshot%202026-10-02%20160423.png
-
 # LogHunter 🎯
 
 **LogHunter** is an automated PowerShell forensic auditing and anti-cheat inspection tool. It gathers critical system artifacts, analyzes Windows Event Logs, verifies service integrity, and flags potential indicators of compromise (IoCs), log wiping, or user tampering.
